@@ -3,7 +3,7 @@ let app = express();
 
 //DB - 1 - Connect to the mongo DB
 const { Database } = require("quickmongo");
-const db = new Database("mongodb+srv://zc2106:Cz%4019961014@cluster0.ocmewtd.mongodb.net/?retryWrites=true&w=majority");
+const db = new Database("mongodb+srv://zc2106:*************@cluster0.ocmewtd.mongodb.net/?retryWrites=true&w=majority");
 db.on("ready",()=>{
     console.log("Connected to the database");
 });
